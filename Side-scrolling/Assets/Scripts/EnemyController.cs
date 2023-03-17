@@ -18,6 +18,8 @@ public class EnemyController : MonoBehaviour
 
     void Start()
     {
+        print(EnemyManager.GetInstance.Distance);
+
         Speed = 0.2f;
         Movement = new Vector3(1.0f, 0.0f, 0.0f);
         HP = 3;
